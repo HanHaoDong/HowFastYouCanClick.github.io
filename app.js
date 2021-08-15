@@ -9,7 +9,9 @@ var counts = 0;
 var name = '';
 var seconds = 0;
 
-
+app.get('/', (req,res) => {
+    res.send('Welcome to How fast can you click in Heroku Auto Deployment!!');
+})
 
 
 app.post('/', function (req, res) {

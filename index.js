@@ -11,40 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitNamebutton = document.getElementById('submit-Name-button');
 	
 
-            // const url = `http://localhost:8000/load`
-			
-			// fetch(url, { method: 'GET' })                                                           
-            //     .then(function (response) { 
-            //         return response.json();                                                       
-            //     })
-            //     .then(function (json) {                                                            
-            //         if (json.error) {
-            //             throw new Error(json.error);
-            //         }
-            //         const attempts = json.attempts
-            //         console.log(attempts)
-
-            //         if (attempts.length > 0){
-                        
-            //             var add = '<ul>'
-            //             for(let i = 0; i < attempts.length ;i++ ){
-            //                 add +='<li>Attempt '+ (i+1) +' ' + attempts[i]+' Clicks</li>' 
-            //             }
-            //             add += '</ul>'
-            //             const changes = document.getElementById('attempts')
-            //             changes.innerHTML = add
-            //             console.log(add)
-
-            //             const changesTop = document.getElementById('top')
-            //             changesTop.innerHTML = '<h4 class="login100-form-title p-b-34 p-t-27">Current Top Click counts : ' + json.topScore 
-            //         }
-                    
-                    
-            //     })
-            //     .catch(function (err) {
-            //         alert(err.message);
-            //     });
-
 
 	submitNamebutton.addEventListener('click', function () { 
 

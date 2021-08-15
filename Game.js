@@ -10,7 +10,7 @@ function Back() {
                 throw new Error(json.error);
             }
             
-            window.location.href = 'index.html'
+            window.location.href = 'https://hanhaodong.github.io/HowFastYouCanClick.github.io/index.html'
 
         })
         .catch(function (err) {

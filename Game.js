@@ -1,7 +1,7 @@
 
 function Back() {
 
-            window.location.href = 'index.html'
+              window.location.assign('https://hanhaodong.github.io/HowFastYouCanClick.github.io/')
 
 }
 

@@ -1,7 +1,7 @@
 
 function Back() {
-    const url = `https://hosting-ca3.herokuapp.com/Clear`;
-    fetch(url, { method: 'PUT' })
+    const url = `https://hosting-ca3.herokuapp.com/Clearall`;
+    fetch(url, { method: 'POST' })
         .then(function (response) {
             return response.json();
         })

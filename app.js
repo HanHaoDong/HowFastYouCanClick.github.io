@@ -48,7 +48,7 @@ app.put('/Count', function (req, res) {
     return res.json({ Name: name, Seconds: seconds, topScore: top });
 });
 
-app.put('/Clear', function (req, res) {
+app.post('/Clearall', function (req, res) {
 
     const top = Math.max(...highest)
 

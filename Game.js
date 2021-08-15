@@ -9,6 +9,7 @@ function Back() {
             if (json.error) {
                 throw new Error(json.error);
             }
+            
             window.location.href = 'index.html'
 
         })

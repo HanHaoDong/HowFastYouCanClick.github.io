@@ -50,12 +50,12 @@ app.put('/Count', function (req, res) {
 
 app.post('/Clearall', function (req, res) {
 
-    const top = Math.max(...highest)
-
-
-    return res.json({Name: name, Seconds: seconds, topScore: top });
-
-
+     highest = [];
+     counts = 0;
+     name = '';
+     seconds = 0;
+     clear = 'All clear'
+     return res.json({clear: clear});
 
 });
 

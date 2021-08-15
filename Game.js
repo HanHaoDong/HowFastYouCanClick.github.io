@@ -1,21 +1,8 @@
 
 function Back() {
-    const url = `https://hosting-ca3.herokuapp.com/Clearall`;
-    fetch(url, { method: 'POST' })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (json) {
-            if (json.error) {
-                throw new Error(json.error);
-            }
-            
+
             window.location.href = 'index.html'
 
-        })
-        .catch(function (err) {
-            alert(err.message);
-        });
 }
 
 

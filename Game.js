@@ -1,6 +1,6 @@
 
 function Back() {
-    const url = `http://localhost:5000/Clear`;
+    const url = `https://hosting-ca3.herokuapp.com/Clear`;
     fetch(url, { method: 'PUT' })
         .then(function (response) {
             return response.json();
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var Name = ''
     var sec = 0
-    const url = `http://localhost:5000/Game`;
+    const url = `https://hosting-ca3.herokuapp.com/Game`;
     fetch(url, { method: 'GET' })
         .then(function (response) {
             return response.json();
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     const Clearbutton = document.getElementById('Clear-button')
                     const countButtonhide = document.getElementById('countButtonhide')
-                    const url = `http://localhost:5000/Count?counts=${count}`;
+                    const url = `https://hosting-ca3.herokuapp.com/Count?counts=${count}`;
                     fetch(url, { method: 'PUT' })
                         .then(function (response) {
                             return response.json();

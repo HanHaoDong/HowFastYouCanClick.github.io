@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const submitNamebutton_feedback = '<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script> <lord-icon src="https://cdn.lordicon.com/osralwsf.json" trigger="loop"colors="primary:#000000,secondary:#000000"stroke="100"style="width:25px;height:25px"></lord-icon>'
         submitNamebutton.innerHTML = submitNamebutton_feedback
 
-		const url = `https://hosting-ca3.herokuapp.com/?Name=${Name}`
+		const url = `https://hosting-ca3.herokuapp.com?Name=${Name}`
 		setTimeout(() => {
 			
 			fetch(url, { method: 'POST' })                                                           

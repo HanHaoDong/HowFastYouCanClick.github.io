@@ -10,8 +10,8 @@ function Back() {
                 throw new Error(json.error);
             }
             
-            window.location.href = 'https://hanhaodong.github.io/HowFastYouCanClick.github.io/index.html'
-
+            // window.location.href = 'https://hanhaodong.github.io/HowFastYouCanClick.github.io/index.html'
+            window.location.assign("https://hanhaodong.github.io/HowFastYouCanClick.github.io")
         })
         .catch(function (err) {
             alert(err.message);

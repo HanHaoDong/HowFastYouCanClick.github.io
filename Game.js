@@ -1,9 +1,9 @@
 
-function Back() {
+// function Back() {
 
-              window.location.assign('https://hanhaodong.github.io/HowFastYouCanClick.github.io/')
+//             window.location.assign('https://hanhaodong.github.io/HowFastYouCanClick.github.io/')
 
-}
+// }
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 throw new Error(json.error);
                             }
                             console.log(json.topScore)
-                            Clearbutton.innerHTML = '<h3 class="login100-form-title p-b-34 p-t-27">' + count + ' times clicked by ' + Name + '</h3>' + '<button  class="login100-form-btn" id="Retry" style="margin-left:8.3em;" onclick="window.location.reload();">Retry</button><button  class="login100-form-btn" id="BackHomePage" style="margin-left:6.5em;" onclick="Back()">Back to Home Page</button> <h4 class="login100-form-title p-b-34 p-t-27"> Current highest score for ' + sec + 's is ' + json.topScore + '</h4>'
+                            Clearbutton.innerHTML = '<h3 class="login100-form-title p-b-34 p-t-27">' + count + ' times clicked by ' + Name + '</h3>' + '<button  class="login100-form-btn" id="Retry" style="margin-left:8.3em;" onclick="window.location.reload();">Retry</button><button  class="login100-form-btn" id="BackHomePage" style="margin-left:6.5em;" onclick="window.location.assign(`https://hanhaodong.github.io/HowFastYouCanClick.github.io/`) ">Back to Home Page</button> <h4 class="login100-form-title p-b-34 p-t-27"> Current highest score for ' + sec + 's is ' + json.topScore + '</h4>'
 
                             countButtonhide.innerHTML =''
 
